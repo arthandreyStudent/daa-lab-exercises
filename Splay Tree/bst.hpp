@@ -256,11 +256,17 @@ class BST {
             cout << "ZIGZAGRIGHT" << endl;
         }
 
+        //      y
+        //       \ 
+        //        x       
         else if (!gp && ptoc_right) {
             zigleft(child);
             cout << "ZIGLEFT" << endl;
         }
 
+        //      y
+        //     /
+        //    x
         else {
             zigright(child);
             cout << "ZIGRIGHT" << endl;
